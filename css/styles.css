@@ -1,0 +1,240 @@
+:root{
+--navy-blue-color:#2e2f42;
+--iris-color: #4d5ae5;
+--ocean-color: #404bbf;
+--green-color:#31D0AA; 
+--slate-color: #434455;
+--white-color: #ffffff;
+--cloud-color: #f4f4fd;
+--second-heading-size:36px;
+--second-heading-weight:700;
+--third-heading-size:20px;
+--third-heading-weight:500;
+/*tu wpisujemy wszystkie kolory na stornie z figmy style guide*/
+}
+
+body{ 
+    font-family: 'Roboto', sans-serif;
+    color:var(--slate-color);
+    background-color: #FFFFFF;
+    font-weight: 500; 
+    
+}
+
+.logo{  
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:var(--iris-color);
+    text-decoration: none;
+    
+}
+
+.link{
+ text-decoration: none;
+}
+.logo-studio{
+    color:var(--navy-blue-color);
+}
+
+.list{ 
+    list-style: none;
+}
+
+.link-nav{  
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2e2f42;
+text-decoration: none;
+}
+
+.link-IPC{
+    text-decoration: none;
+    color: var(--ocean-color);
+}
+
+
+.link:hover{
+    color:var(--ocean-color);
+} /*Pseudoklasa podświetlająca przy najeździe myszki */
+
+.link:focus{
+color:var(--ocean-color);
+} /*podświetlenie butonna(obszaru w koło napisu) */
+
+.address{
+    font-style: normal;
+}
+.address-link{
+font-size: 16px;
+line-height: 1.5;
+color: var(--slate-color);
+list-style: none;
+letter-spacing: 0.02em;
+text-decoration: none;
+}
+.address-link:hover{
+    color: var(--ocean-color);
+}
+.address-link:focus{
+    color: var(--ocean-color);
+}
+
+.filters-list{
+color: #4D5AE5;
+}
+
+.filter-button:hover{
+    color: var(--white-color);
+    background-color: var(--ocean-color);
+}
+.filter-button:focus{
+    color: var(--white-color);
+background-color:var(--ocean-color)
+} 
+
+.filter-button{
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;   
+    color:var(--iris-color);
+    background-color: var(--cloud-color);
+}
+
+.main-h-two{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue-color);
+}
+
+/*.druga-klasa{
+text-decoration: none;
+} /*nie jestem pewien tego*/
+
+.description{
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+
+
+.footer{
+    background-color: var(--navy-blue-color);
+}
+.footer-studio{
+    color: var(--cloud-color);
+}
+
+.footer-studio-index{
+    color: var(--cloud-color);
+    background-color: var(--navy-blue-color);
+}
+.footer-index{
+    line-height: 1.5;
+    background-color: var(--navy-blue-color);
+    letter-spacing: 0.02em;
+}
+
+.section-four{
+    background-color: var(--cloud-color);
+
+}
+.header-four{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--navy-blue-color);
+}
+.markguerrero{
+    background-color: var(--white-color);
+}
+.generalheader{
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--navy-blue-color);
+}
+.akapit{
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+.header-three{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--navy-blue-color);
+}
+.header-two{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue-color);
+}
+.akapit-two{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate-color);
+}
+
+.section-one{
+    background-color: var(--navy-blue-color);
+
+}
+.header-one{
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--white-color);
+}
+.button-one{
+    background-color: var(--iris-color);
+    color: var(--white-color);
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    }
+.button-one:hover{
+background-color: var(--ocean-color);
+}
+.button-one:focus{
+    background-color: var(--ocean-color);
+}
+.logo-header{
+    color: var(--navy-blue-color);
+}
+
+.link-index{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:var(--slate-color);
+}
+.akapit-footer{
+    color: var(--cloud-color);
+}
+.link-portfolio{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate-color);
+}
