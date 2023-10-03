@@ -20,7 +20,7 @@ body{
     font-weight: 500; 
     
 }
-
+/*tam gdzie nie ma przydzielonego pliku html to znaczy ze jest wspolny*/
 .logo{  
     font-family: "Raleway", sans-serif;
     font-weight: 800;
@@ -38,6 +38,7 @@ body{
 }
 .logo-studio{
     color:var(--navy-blue-color);
+/*logo studio nalezy do portfolio*/
 }
 
 .list{ 
@@ -52,12 +53,6 @@ letter-spacing: 0.02em;
 color: #2e2f42;
 text-decoration: none;
 }
-
-.link-IPC{
-    text-decoration: none;
-    color: var(--ocean-color);
-}
-
 
 .link:hover{
     color:var(--ocean-color);
@@ -107,6 +102,7 @@ background-color:var(--ocean-color)
     cursor: pointer;   
     color:var(--iris-color);
     background-color: var(--cloud-color);
+/*filter-button należy do Portfolio*/
 }
 
 .main-h-two{
@@ -115,26 +111,21 @@ background-color:var(--ocean-color)
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--navy-blue-color);
+/*main-h-two nalezy do portfolio*/
 }
-
-/*.druga-klasa{
-text-decoration: none;
-} /*nie jestem pewien tego*/
-
 .description{
 line-height: 1.5;
 letter-spacing: 0.02em;
+/*nalezy do portfolio*/
 }
-
-
-
 .footer{
     background-color: var(--navy-blue-color);
+/*nalezy do portfolio*/
 }
 .footer-studio{
     color: var(--cloud-color);
+/*nalezy do portfolio*/
 }
-
 .footer-studio-index{
     color: var(--cloud-color);
     background-color: var(--navy-blue-color);
@@ -147,7 +138,7 @@ letter-spacing: 0.02em;
 
 .section-four{
     background-color: var(--cloud-color);
-
+/*nalezy do index*/
 }
 .header-four{
     font-size: 36px;
@@ -156,9 +147,11 @@ letter-spacing: 0.02em;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--navy-blue-color);
+/*nalezy do index*/
 }
 .markguerrero{
     background-color: var(--white-color);
+/*nalezy do index*/
 }
 .generalheader{
 font-weight: 500;
@@ -166,11 +159,13 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--navy-blue-color);
+/*nalezy do index*/
 }
 .akapit{
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
+/*nalezy do index*/
 }
 .header-three{
     font-size: 36px;
@@ -179,6 +174,7 @@ letter-spacing: 0.02em;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--navy-blue-color);
+/*nalezy do index*/
 }
 .header-two{
     font-weight: 500;
@@ -186,16 +182,18 @@ letter-spacing: 0.02em;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--navy-blue-color);
+/*nalezy do index*/
 }
 .akapit-two{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--slate-color);
+/*nalezy do index*/
 }
-
 .section-one{
     background-color: var(--navy-blue-color);
 
+/*nalezy do index*/
 }
 .header-one{
     font-size: 56px;
@@ -203,6 +201,7 @@ letter-spacing: 0.02em;
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--white-color);
+    /*nalezy do index*/
 }
 .button-one{
     background-color: var(--iris-color);
@@ -213,7 +212,8 @@ letter-spacing: 0.02em;
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
-    }
+    /*nalezy do index*/
+}
 .button-one:hover{
 background-color: var(--ocean-color);
 }
@@ -222,6 +222,7 @@ background-color: var(--ocean-color);
 }
 .logo-header{
     color: var(--navy-blue-color);
+    /*nalezy do index*/
 }
 
 .link-index{
@@ -229,12 +230,15 @@ background-color: var(--ocean-color);
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:var(--slate-color);
+    /*nalezy do index*/
 }
 .akapit-footer{
     color: var(--cloud-color);
+    /*nalezy do index*/
 }
 .link-portfolio{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--slate-color);
+    /*nalezy do porfolio*/
 }
