@@ -274,3 +274,18 @@ background-color: var(--ocean-color);
     display: flex;
     gap: 40px; 
 }
+.section-two{
+    padding: 120px 0;
+}
+.list-section-two{
+    list-style: none;
+    display: flex;
+    gap: 24px;
+/*dodano klasę do hw03*/
+}
+.style-two{
+    width: calc((100%-72px)/4); /*to jest trudne*/
+}
+.style-header{
+    margin-bottom: 8px;
+}
