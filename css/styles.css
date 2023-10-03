@@ -293,7 +293,7 @@ background-color: var(--ocean-color);
 }
 
 .style-three{
-   flex-basis: calc((100%-48px)/3);
+   flex-basis: calc((100%-3*16px)/3);
 }
 .padding-eight{
     margin-bottom: 8px;
