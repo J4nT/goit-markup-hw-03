@@ -252,7 +252,7 @@ background-color: var(--ocean-color);
 .div{
     display: flex;
 }
-.cointainer{
+.container{
     width: 1158px;
     margin: 0 auto;
     padding-left: 15px;
