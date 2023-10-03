@@ -44,8 +44,7 @@ body{
 
 .list{ 
     list-style: none;
-    display: flex; /*<-- też to dodałem przed chwilą*/
-    gap: 40px; /*<-- też to dodałem przed chwilą*/
+    display: flex; /*<-- dodałem to w hw03*/
 }
 
 .link-nav{  
@@ -298,4 +297,10 @@ background-color: var(--ocean-color);
 }
 .padding-eight{
     margin-bottom: 8px;
+}
+.gap-forty{
+    gap: 40px;
+}
+.gap-twenty-four{
+    gap: 24px;
 }
