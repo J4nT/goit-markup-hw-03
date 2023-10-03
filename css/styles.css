@@ -178,6 +178,7 @@ letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--navy-blue-color);
 /*nalezy do index*/
+    margin-bottom: 72px;
 }
 .header-two{
     font-weight: 500;
@@ -286,15 +287,12 @@ background-color: var(--ocean-color);
 .style-two{
     width: calc((100%-72px)/4); /*to jest trudne*/
 }
-.style-header{
-    margin-bottom: 8px;
-}
+
 .section-three{
     padding-bottom: 120px;
 }
-.header-two{
-    margin-bottom: 72px;
-}
+
 .style-three{
     width: calc((100%-48px)/3);
 }
+
