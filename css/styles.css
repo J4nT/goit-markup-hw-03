@@ -296,5 +296,5 @@ background-color: var(--ocean-color);
     margin-bottom: 72px;
 }
 .style-three{
-width: calc((100%-48px)/3);
+    width: calc((100%-48px)/3);
 }
