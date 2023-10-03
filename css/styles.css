@@ -30,11 +30,12 @@ body{
     text-transform: uppercase;
     color:var(--iris-color);
     text-decoration: none;
-    
+    margin-right: 76px;     /* <-- dodałem to przed chwilą*/
 }
 
 .link{
- text-decoration: none;
+ text-decoration: none; /*dodałem padding tutaj w hw02 tu go nie bylo*/ 
+ padding: 24px 0;
 }
 .logo-studio{
     color:var(--navy-blue-color);
@@ -43,6 +44,8 @@ body{
 
 .list{ 
     list-style: none;
+    display: flex; /*<-- też to dodałem przed chwilą*/
+    gap: 40px; /*<-- też to dodałem przed chwilą*/
 }
 
 .link-nav{  
@@ -241,4 +244,25 @@ background-color: var(--ocean-color);
     letter-spacing: 0.02em;
     color: var(--slate-color);
     /*nalezy do porfolio*/
+}
+.header{
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.div{
+    display: flex;
+}
+.cointainer{
+    width: 1158px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    gap: 40px; 
 }
