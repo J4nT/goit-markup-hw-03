@@ -289,3 +289,12 @@ background-color: var(--ocean-color);
 .style-header{
     margin-bottom: 8px;
 }
+.section-three{
+    padding-bottom: 120px;
+}
+.header-two{
+    margin-bottom: 72px;
+}
+.style-three{
+width: calc((100%-48px)/3);
+}
