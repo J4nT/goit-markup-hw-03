@@ -195,6 +195,7 @@ letter-spacing: 0.02em;
 }
 .section-one{
     background-color: var(--navy-blue-color);
+    padding: 188px 0;
 
 /*nalezy do index*/
 }
@@ -205,6 +206,7 @@ letter-spacing: 0.02em;
     letter-spacing: 0.02em;
     color: var(--white-color);
     /*nalezy do index*/
+    max-width: 496px;
 }
 .button-one{
     background-color: var(--iris-color);
@@ -216,6 +218,12 @@ letter-spacing: 0.02em;
     letter-spacing: 0.04em;
     cursor: pointer;
     /*nalezy do index*/
+    display: block; /*nowe!*/
+    max-width: 169px; /*nowe!*/
+    height: 56px; /*nowe!*/
+    border: none; /*nowe!*/
+    border-radius: 4px; /*nowe!*/
+    cursor: pointer; /*nowe!*/
 }
 .button-one:hover{
 background-color: var(--ocean-color);
