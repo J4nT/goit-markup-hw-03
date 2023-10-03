@@ -219,7 +219,7 @@ letter-spacing: 0.02em;
     cursor: pointer;
     /*nalezy do index*/
     display: block; /*nowe!*/
-    max-width: 169px; /*nowe!*/
+    min-width: 169px; /*nowe!*/
     height: 56px; /*nowe!*/
     border: none; /*nowe!*/
     border-radius: 4px; /*nowe!*/
