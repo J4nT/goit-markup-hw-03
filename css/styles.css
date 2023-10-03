@@ -262,7 +262,7 @@ background-color: var(--ocean-color);
     display: flex;
     align-items: center;
 }
-.menu-nav{
+.menu{
     display: flex;
     gap: 40px; 
 }
