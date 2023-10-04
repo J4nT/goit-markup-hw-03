@@ -319,3 +319,19 @@ background-color: var(--ocean-color);
     display: inline-block;
     margin-bottom: 16px;
 }
+.header-portfolio{
+    border-bottom: #e7e9fc;
+}
+.div-portfolio{
+    display: flex;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.nav-portfolio{
+    display: flex;
+    align-items: center;
+}
+.style-header-portfolio{
+    padding: 24px 0;
+}
