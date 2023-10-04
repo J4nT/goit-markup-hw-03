@@ -380,3 +380,7 @@ background-color: var(--ocean-color);
 .margin-bottom-eight{
     margin-bottom: 8px;
 }
+.reset{
+    margin: 0;
+    padding-left: 0;
+}
