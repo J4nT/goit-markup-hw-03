@@ -136,11 +136,13 @@ letter-spacing: 0.02em;
     line-height: 1.5;
     background-color: var(--navy-blue-color);
     letter-spacing: 0.02em;
+    padding: 100px 0;
 }
 
 .section-four{
     background-color: var(--cloud-color);
 /*nalezy do index*/
+padding: 120px 0;
 }
 .header-four{
     font-size: 36px;
@@ -149,10 +151,12 @@ letter-spacing: 0.02em;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--navy-blue-color);
+    margin-bottom: 72px;
 /*nalezy do index*/
 }
 .markguerrero{
     background-color: var(--white-color);
+    border-radius: 0px 0px 4px 4px;
 /*nalezy do index*/
 }
 .generalheader{
@@ -161,13 +165,16 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--navy-blue-color);
-/*nalezy do index*/
+text-align: center;
+margin-bottom: 8px;
+/*nalezy do index w sekcji 4*/
 }
 .akapit{
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-/*nalezy do index*/
+text-align: center;
+/*nalezy do index tylko w sekcji 4*/
 }
 .header-three{
     font-size: 36px;
@@ -246,6 +253,7 @@ background-color: var(--ocean-color);
 }
 .akapit-footer{
     color: var(--cloud-color);
+    max-width: 264px;
     /*nalezy do index*/
 }
 .link-portfolio{
@@ -303,4 +311,11 @@ background-color: var(--ocean-color);
 }
 .gap-twenty-four{
     gap: 24px;
+}
+.div-section-four{
+    padding: 32px 0px;
+}
+.footer-link-style{
+    display: inline-block;
+    margin-bottom: 16px;
 }
