@@ -359,9 +359,7 @@ background-color: var(--ocean-color);
 
 }
 .calc-forty-eight{
-    display: block;
-    padding-left: 0;
-    margin: 0;
+    display: block list-item;
     width: calc((100%-(3*16px)/3));
 }
 .section-style-photos{
