@@ -39,7 +39,7 @@
     list-style: none;
     display: flex; /*<-- dodałem to w hw03*/
     /*margin: 0;/*<-- dodałem to w hw03 być może trzeba będzie usunąć*/
-    padding-left: 0;/*<-- dodałem to w hw03 być może trzeba będzie usunąć*/
+    /*padding-left: 0;/*<-- dodałem to w hw03 być może trzeba będzie usunąć*/
 }
 
 .link-nav{  
