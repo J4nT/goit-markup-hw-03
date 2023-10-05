@@ -13,14 +13,7 @@
 /*tu wpisujemy wszystkie kolory na stornie z figmy style guide*/
 }
 
-body{ 
-    font-family: 'Roboto', sans-serif;
-    color:var(--slate-color);
-    background-color: #FFFFFF;
-    font-weight: 500; 
-    
-}
-/*tam gdzie nie ma przydzielonego pliku html to znaczy ze jest wspolny*/
+
 .logo{  
     font-family: "Raleway", sans-serif;
     font-weight: 800;
@@ -32,9 +25,7 @@ body{
     text-decoration: none;
     margin-right: 76px;     /* <-- dodałem to przed chwilą*/
 }
-img{
-    display: block;
-}
+
 .link{
  text-decoration: none; /*dodałem padding tutaj w hw02 tu go nie bylo*/ 
  padding: 24px 0;
