@@ -32,7 +32,9 @@ body{
     text-decoration: none;
     margin-right: 76px;     /* <-- dodałem to przed chwilą*/
 }
-
+img{
+    display: block;
+}
 .link{
  text-decoration: none; /*dodałem padding tutaj w hw02 tu go nie bylo*/ 
  padding: 24px 0;
@@ -356,10 +358,9 @@ background-color: var(--ocean-color);
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-
 }
 .calc-forty-eight{
-    display: block list-item;
+    display: block;
     width: calc((100%-(3*16px)/3));
 }
 .section-style-photos{
