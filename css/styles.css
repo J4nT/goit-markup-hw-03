@@ -12,7 +12,11 @@
 --third-heading-weight:500;
 /*tu wpisujemy wszystkie kolory na stornie z figmy style guide*/
 }
-
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 
 .logo{  
     font-family: "Raleway", sans-serif;
@@ -367,10 +371,11 @@ background-color: var(--ocean-color);
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-}
+    }
 .calc-forty-eight{
     display: block; 
     width: calc((100% - 48px)/3);
+    cursor: pointer;
 }
 .section-style-photos{
     padding: 32px 16px;
@@ -390,5 +395,8 @@ background-color: var(--ocean-color);
     overflow: hidden;
 }
 .margin-bottom-eight{
-    margin-bottom: 8px;
+    margin-bottom: 6px;
+}
+.text-decoration{
+    text-decoration: none;
 }
