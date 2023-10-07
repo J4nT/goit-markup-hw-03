@@ -61,6 +61,15 @@ color:var(--ocean-color);
 
 .address{
     font-style: normal;
+    padding-left: 332px;
+}
+.address-top-index{
+    padding-top: 8px;
+        /* bo margin jest 16 w linkach a ja nie mam marginu w addresie- reguluje to paddingiem*/
+}
+.address-top-portfolio{
+    padding-top: 24px;
+    /*tylko portfolio*/
 }
 .address-link{
 font-size: 16px;
@@ -119,7 +128,10 @@ letter-spacing: 0.02em;
 }
 .footer{
     background-color: var(--navy-blue-color);
-/*nalezy do portfolio*/
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding: 100px 0;
+    /*nalezy do portfolio*/
 }
 .footer-studio{
     color: var(--cloud-color);
@@ -213,6 +225,9 @@ text-align: center;
     /*nalezy do index*/
     max-width: 496px;
 }
+.padding-index{
+padding-left: 331px;
+}
 .button-one{
     background-color: var(--iris-color);
     color: var(--white-color);
@@ -229,6 +244,9 @@ text-align: center;
     border: none; /*nowe!*/
     border-radius: 4px; /*nowe!*/
     cursor: pointer; /*nowe!*/
+}
+.button-margin{
+    margin-left: 488.5px;
 }
 .button-one:hover{
 background-color: var(--ocean-color);
@@ -251,7 +269,7 @@ background-color: var(--ocean-color);
 .akapit-footer{
     color: var(--cloud-color);
     max-width: 264px;
-    /*nalezy do index*/
+    
 }
 .link-portfolio{
     line-height: 1.5;
